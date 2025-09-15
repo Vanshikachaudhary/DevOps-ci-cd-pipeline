@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USER = "vanshikaaachaudhary"
+        DOCKERHUB_USER = "vanshikaachaudhary"
         IMAGE_NAME     = "node-js-app"
         SSH_USER       = "ec2-user"   // or ubuntu depending on AMI
         EC2_HOST       = "YOUR.EC2.PUBLIC.IP" // replace with Terraform output
